@@ -148,7 +148,7 @@ void voiceCoil() {
 
 void rainbowCycle() { // modified from Adafruit example to make it a state machine
   static uint16_t j=0;
-    for(int i=0; i< strip.numPixels(); i++) {
+    for(int i=0; i < strip.numPixels(); i++) {
       strip.setPixelColor(i, Wheel(((i * 256 / strip.numPixels()) + j) & 255));
     }
     strip.show();
