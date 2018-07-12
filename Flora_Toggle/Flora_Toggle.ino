@@ -62,11 +62,7 @@ void updatePattern(int pat){ // call the pattern currently being created
         voiceCoil();
         break;
     case 1: 
-        strip.setBrightness(16); //adjust brightness here
-        rainbowCycle();
-        break;
-    case 2:
-        strip.setBrightness(26); //adjust brightness here
+        strip.setBrightness(27); //adjust brightness here
         rainbowCycle();
         break;
   }  
