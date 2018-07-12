@@ -69,10 +69,6 @@ void updatePattern(int pat){ // call the pattern currently being created
         strip.setBrightness(26); //adjust brightness here
         rainbowCycle();
         break;
-    case 3:
-        strip.setBrightness(36); //adjust brightness here
-        rainbowCycle();
-        break;
   }  
 }
 
