@@ -30,7 +30,6 @@ byte dotHangCount = 0; //Frame counter for holding peak dot
 
 void setup() {
   strip.begin(); // This initializes the NeoPixel library.
-  strip.setBrightness(30); //adjust brightness here
   wipe(); // wipes the LED buffers
   pinMode(button, INPUT_PULLUP); // change pattern button
  //populates pixel array with random blue values for lightning storm
@@ -62,7 +61,7 @@ void updatePattern(int pat){ // call the pattern currently being created
         voiceCoil();
         break;
     case 1: 
-        strip.setBrightness(27); //adjust brightness here
+        strip.setBrightness(26); //adjust brightness here
         rainbowCycle();
         break;
   }  
